@@ -3,6 +3,7 @@
   "projects": {
     "component-example": "libs/component-example",
     "other-component": "libs/other-component",
-    "react-example": "apps/react-example"
+    "react-example": "apps/react-example",
+    "storybook": "apps/storybook"
   }
 }

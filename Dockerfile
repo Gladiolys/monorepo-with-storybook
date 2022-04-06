@@ -10,10 +10,10 @@ RUN npm install --ignore-scripts
 
 COPY . .
 
-RUN nx run-many --target=build-storybook --all
+RUN nx run storybook:build-storybook
 
 FROM nginx:latest as runtime-stage
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=build-stage /app/dist/storybook /var/www/public
+COPY --from=build-stage /app/dist/storybook/storybook /var/www/public
