@@ -1,7 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "react-example": "apps/react-example",
-    "react-example-e2e": "apps/react-example-e2e"
+    "component-example": "libs/component-example",
+    "other-component": "libs/other-component",
+    "react-example": "apps/react-example"
   }
 }

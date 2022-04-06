@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-with-storybook/component-example": [
+        "libs/component-example/src/index.ts"
+      ],
+      "@monorepo-with-storybook/other-component": [
+        "libs/other-component/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
